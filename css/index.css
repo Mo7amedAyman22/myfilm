@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    
+} 
+header nav ul li a:hover {
+    color: rgb(50, 19, 19);
+} 
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 35px;
+    font-style: oblique;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+}
+.sign{
+color: black;
+width: 70px;
+height: 70%;
+background-color: red;
+font-size: 25px;
+padding: 5px; 
+margin: 20px; 
+border-radius: 8px;
+}
+.sign:hover{
+    background-color:green;
+}
+.fas.fa-search{
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa.fa-chevron-down
+{
+    color: black;
+} 
+
+.container{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    grid-template-rows: 100px auto auto;
+    height: 100vh;
+    width: 100%; 
+    gap: 5px;
+}
+header{
+    background-color: blue;
+    grid-column-start: span 2;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+}
+
+
+
+.container header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+aside{
+    background-color:slategray;
+    grid-column-start: span 1;
+}
+aside ul li {
+    list-style: none;
+    position: relative;
+    padding: 1px;
+    display: inline-block;
+}
+aside li a{
+    display: block;
+    background-color: #123;
+    margin: 10px ;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 5px;
+}
+aside p{
+    background-color:black; 
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside .li3 a{
+    background-color: black;
+    width: 240px;
+}
+aside .li4 a{
+    background-color: black;
+    width: 240px;
+}
+aside .li5 a{
+    background-color: black;
+    width: 240px;
+    
+}
+aside li a:hover{
+    background-color: grey;
+} 
+
+
+main{
+    background-color:black;
+    grid-column-start: span 1;
+}
+.add{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+.contant .araby{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px;
+    margin: 5px auto;
+    width: 200px;
+    height: 280px;
+    
+}
+.contant .araby:hover{
+    background-color: #ffffff55;
+}
+.araby img{
+    height: 250px;
+    width: 200px;
+    text-align: center;
+}
+.araby p{
+    background-color: rgb(83, 29, 29);
+    color: white;
+    font-size: 25px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+.a1{
+    position: relative;
+    cursor: pointer;
+}
+
+.a2{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    min-width: 150px;
+    background-color: red; 
+    direction: rtl;
+    padding: 0px;
+    margin: 0px;
+}
+
+.newstyle {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 30px;
+}
+.a2 a{
+    display: block;
+    color:black;
+    padding: 15px;
+    transition: .3s;
+    font-size: 40px;
+}
+.a2 a:hover{
+    padding-right: 25px;
+}
+
+
+
+

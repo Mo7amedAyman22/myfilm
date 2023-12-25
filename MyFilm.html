@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>My Film</title>
+</head>
+<body dir="rtl">
+    <div class="container">
+        <header dir="ltr">
+        <nav>
+            <div class="logo">
+                <h2>My Film</h2>
+            </div>
+            <div class="div">
+                <i class="fas fa-search">
+                    <input type="search" required placeholder="ابحث عن المحتوى التى تريده">
+                </i>
+            </div>
+            <div class="newstyle">
+                <div class="a1">
+                    <a onclick="opendropdown(this)"><i class="fa fa-chevron-down"></i>افلام</a>
+                    <div class="a2" style="display: none;">
+                        <p><a href="">عربى</a></p>
+                        <hr>
+                        <p><a href="">اجنبى</a></p>
+                        <hr>
+                        <p><a href="">تركى</a></p>
+                        <hr>
+                        <p><a href="">هندى</a></p>
+                        <hr>
+                        <p><a href="">كورى</a></p>
+                    </div>
+                </div>
+                <div class="a1">
+                    <a onclick="opendropdown(this)"> <i class="fa fa-chevron-down"></i>مسلسلات</a>
+                    <div class="a2" style="display: none;">
+                        <p><a href="">عربى</a></p>
+                        <hr>
+                        <p><a href="">اجنبى</a></p>
+                        <hr>
+                        <p><a href="">تركى</a></p>
+                        <hr>
+                        <p><a href="">هندى</a></p>
+                        <hr>
+                        <p><a href="">كورى</a></p>
+                    </div>
+                </div>
+                <div class="a1">
+                    <a onclick="opendropdown(this)"> <i class="fa fa-chevron-down"></i>مسرحيات</a>
+                    <div class="a2" style="display: none;">
+                        <p><a href="">مسرح مصر </a></p>
+                        <hr>
+                        <p><a href="">تياترو مصر</a></p>
+                        <hr>
+                        <p><a href=""> كوميدية</a></p>
+                        <hr>
+                        <p><a href=""> دراما</a></p>
+                        <hr>
+                        <p><a href=""> قديم</a></p>
+                    </div>
+                </div>
+            </div>
+            <a href="http://localhost/myfilm/login/loginform.php" class="sign">sign in</a>
+        </nav>
+        </header>
+        <aside>
+            <ul class="ul">
+                <li class="li">
+                <p>افلام</p>
+                <ul>
+                    <li>
+                        <a href="#">جديدة</a>
+                    </li>
+                        <li>
+                            <a href="#">خيال</a></li>
+                        <li>
+                            <a href="">رعب</a>
+                    </li>
+                        <li>
+                            <a href="">اثارة</a>
+                    </li>
+                        <li>
+                            <a href="">اكشن</a>
+                    </li>
+                        <li>
+                            <a href="#">جريمه</a>
+                    </li>
+                </ul>   
+                </li>
+                    <li class="li2">
+                        <p>مسلسلات</p>
+                        <ul>
+                        <li>
+                            <a href="#">جديدة</a>
+                        </li>
+                            <li>
+                                <a href="#">خيال</a></li>
+                            <li>
+                                <a href="">رعب</a>
+                        </li>
+                            <li>
+                                <a href="">اثارة</a>
+                        </li>
+                            <li>
+                                <a href="">اكشن</a>
+                        </li>
+                        <li>
+                            <a href="#">جريمه</a>
+                        </li>
+                        </ul>
+                    </li>
+                <li class="li3">
+                    <a href="#">
+                        مصارعة حرة
+                    </a>
+                </li>
+                <li class="li4">
+                    <a href="#">
+                    برامج تلفزيونية
+                    </a>
+                </li>
+                <li class="li5">
+                    <a href="#">
+                        انمى
+                    </a>
+                </li>
+            </ul>
+        
+    </aside>
+        
+        <main>
+            <div class="contant">
+                <div class="add">
+                    <h2>افلام عربى</h2>
+                </div>
+                <hr>
+                <div class="araby">
+                    <a href="#">
+                        <img src=".//araby/200جنية.jpg" alt="">
+                        <p>200 جنية</p>
+                    </a>
+                </div>
+                    <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/احمد نوتردام.jpg" alt="">
+                            <p>احمد نوتردام</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/الجريمة.jpg" alt="">
+                            <p>الجريمة</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/الشنطة.png" alt="">
+                            <p>الشنطة</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/العارف.jpg" alt="">
+                        <p> العارف</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#"> 
+                            <img src=".//araby/برا المنهج.jpg" alt="">
+                            <p> برا المنهج</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/تماسيح النيل.jpg" alt="">
+                            <p>تماسيح النيل </p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/جدران.png" alt="">
+                            <p>جدران</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/حامل اللقب.jpg" alt="">
+                            <p>حامل اللقب</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/ريتسا.jpg" alt="">
+                            <p>ريتسا</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/زومبى.png" alt="">
+                            <p>زومبى</p>
+                        </a>
+                    </div>
+                    <div class="araby">
+                        <a href="#">
+                            <img src=".//araby/عمهم.jpg" alt=""> 
+                            <p>عمهم</p>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="add">
+                        <h2>مسلسلات عربى</h2>
+                    </div>
+                    <hr>
+                    <div class="araby">
+                        <a href="#">
+                            <img src=".//araby m/الانسة فرح.jpg" alt="">
+                            <p>الانسة فرح</p>
+                        </a>
+                    </div>
+                        <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/البيت بيتى.jpg" alt="">
+                                <p>البيت بيتى</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/الثمانية.jpg" alt="">
+                                <p>الثمانية</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/المتهمه.jpg" alt="">
+                                <p>المتهمه</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/المشوار.jpg" alt="">
+                            <p> المشوار</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#"> 
+                                <img src=".//araby m/ايجار قديم.jpg" alt="">
+                                <p>ايجار قديم</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/بيت فرح.jpg" alt="">
+                                <p> بيت فرح </p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/جزيرة غمام.jpg" alt="">
+                                <p>جزيرة غمام</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/دلع بنات.jpg" alt="">
+                                <p> دلع بنات</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/دوبامين.jpg" alt="">
+                                <p>دوبامين</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/ريفو.png" alt="">
+                                <p>ريفو</p>
+                            </a>
+                        </div>
+                        <div class="araby">
+                            <a href="#">
+                                <img src=".//araby m/وعد ابليس.jpg" alt=""> 
+                                <p>وعد ابليس</p>
+                            </a>
+                        </div>
+                        <hr>
+                        <div class="add">
+                            <h2>افلام اجنبى</h2>
+                        </div>
+                        <hr>
+                        <div class="araby">
+                            <a href="#">
+                                <img src=".//english/american murderer.jpg" alt="">
+                                <p>american murderer</p>
+                            </a>
+                        </div>
+                            <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/avengers.jpg" alt="">
+                                    <p> avengers</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/black adam.jpg" alt="">
+                                    <p>black adam</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/Black Panther Wakanda Forever.jpg" alt="">
+                                    <p>Black Panther</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/bullet train.jpg" alt="">
+                                <p> bullet train</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#"> 
+                                    <img src=".//english/full.jpg" alt="">
+                                    <p> full</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/my mind & me.jpg" alt="">
+                                    <p> my mind & me </p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/octo games.jpg" alt="">
+                                    <p>octo games</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/shadow master.jpg" alt="">
+                                    <p> shadow master</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/smile.jpg" alt="">
+                                    <p>smile</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/wire room.jpg" alt="">
+                                    <p>wire room</p>
+                                </a>
+                            </div>
+                            <div class="araby">
+                                <a href="#">
+                                    <img src=".//english/the twin.jpg" alt=""> 
+                                    <p>the twin</p>
+                                </a>
+                            </div>
+                            <hr>
+                            <div class="add">
+                                <h2>مسلسلات اجنبى</h2>
+                            </div>
+                            <hr>
+                            <div class="araby">
+                                <a href="#">
+                                    <img src=".//english m/1899.jpg" alt="">
+                                    <p>1899</p>
+                                </a>
+                            </div>
+                                <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/from.jpg" alt="">
+                                        <p> from</p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/game of thrones.jpg" alt="">
+                                        <p>game of thrones</p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/keep breathing.jpg" alt="">
+                                        <p>keep breathing</p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/maggie.jpg" alt="">
+                                    <p> maggie</p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#"> 
+                                        <img src=".//english m/peaky blinders.jpg" alt="">
+                                        <p> peaky blinders</p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/preson break.jpg" alt="">
+                                        <p> preson break </p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/repoot.jpg" alt="">
+                                        <p>repoot</p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/skymed.jpg" alt="">
+                                        <p> skymed</p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/the good doctor.jpg" alt="">
+                                        <p>the good doctor</p>
+                                    </a>
+                                </div>
+                                    <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/yellow stone.jpg" alt="">
+                                        <p>yellow stone</p>
+                                    </a>
+                                </div>
+                                <div class="araby">
+                                    <a href="#">
+                                        <img src=".//english m/the pariparial.jpg" alt=""> 
+                                        <p>the pariparial</p>
+                                    </a>
+                                </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
